@@ -25,7 +25,7 @@
     
     <form action="https://formsubmit.co/jmariano.0624@gmail.com" method="POST">
         <fieldset>
-            <legend style="margin-bottom: 10px;">Feedback Form</legend>
+            <legend style="margin-bottom: 10px; font-size: 20px;"><strong>Feedback Form</strong></legend>
 
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required><br><br>
@@ -34,7 +34,11 @@
             <input type ="text" id="email" name="email" required><br><br>
 
             <label for="message">Message:</label><br>
-            <textarea style="margin-bottom: 10px;" id="message" name="message" rows="4" cols="50" required></textarea>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Send Feedback</button><br><br>
+            <button style="margin-bottom: 15px;" type="reset">Clear Form</button>
+
         </fieldset>
     </form>
 
